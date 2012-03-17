@@ -30,7 +30,7 @@ public class Varasto {
         {
             this.saldo = alkuSaldo;
         } else {
-            this.saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
+            this.saldo = this.tilavuus;  // täyteen ja ylimäärä hukkaan!
         }
     }
 
