@@ -150,7 +150,7 @@ public class VarastoTest {
     }
     
     @Test
-    public void eiOtetaEnemmänKuinOn() {
+    public void eiOtetaEnemmanKuinOn() {
         varasto.lisaaVarastoon(6);
         varasto.otaVarastosta(10);
         
